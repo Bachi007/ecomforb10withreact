@@ -7,6 +7,7 @@ const API=axios.create({
 
 export const getProducts=()=>API.get("/products")
 export const addProducts=(newproduct)=>API.post("/addproducts",newproduct);
-
+export const deleteProduct=(pid)=>API.delete(`/products/${pid}`)
+export const updateProduct=(id,product)=>API.put(`/products/${id}`,product);
 
 export default API;

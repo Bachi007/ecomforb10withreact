@@ -7,6 +7,8 @@ import Dashboard from './Dashboard'
 import Home from './Home'
 import ViewProducts from './ViewProducts'
 import AddProducts from './AddProducts'
+import Manage from './Manage'
+
 
 function App() {
   
@@ -18,6 +20,8 @@ function App() {
         <Route path="home" element={<Home/>}></Route>
         <Route path="view" element={<ViewProducts/>}></Route>
         <Route path="add" element={<AddProducts/>}></Route>
+        <Route path="manage" element={<Manage/>}></Route>
+        
       </Route>
       </Routes>
       </BrowserRouter>

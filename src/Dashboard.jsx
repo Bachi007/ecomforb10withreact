@@ -16,8 +16,9 @@ function Dashboard(){
         <li className="nav-item">
             <Link className="nav-link" to="/user/add">Add Products</Link>
         </li>
-        
-
+        <li className="nav-item">
+            <Link className="nav-link" to="/user/manage">Manage Products</Link>
+        </li>
 
 
         </ul>
